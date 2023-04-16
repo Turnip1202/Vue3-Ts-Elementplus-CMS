@@ -1,0 +1,107 @@
+{
+  "code": 0,
+  "data": {
+    "list": [
+      {
+        "id": 177040858,
+        "name": "Turnip",
+        "realname": "ttt",
+        "cellphone": 66666,
+        "enable": 1,
+        "departmentId": 1,
+        "roleId": 9230,
+        "createAt": "2023-02-22T07:57:14.000Z",
+        "updateAt": "2023-02-22T07:57:14.000Z"
+      },
+      {
+        "id": 177040855,
+        "name": "kkk",
+        "realname": "kkk",
+        "cellphone": 136514641869,
+        "enable": 1,
+        "departmentId": 2,
+        "roleId": 9226,
+        "createAt": "2023-02-22T07:37:30.000Z",
+        "updateAt": "2023-02-22T07:37:30.000Z"
+      },
+      {
+        "id": 177040854,
+        "name": "yyy",
+        "realname": "yyy",
+        "cellphone": 27542452542,
+        "enable": 1,
+        "departmentId": 4,
+        "roleId": 9226,
+        "createAt": "2023-02-22T07:29:55.000Z",
+        "updateAt": "2023-02-22T07:29:55.000Z"
+      },
+      {
+        "id": 177040853,
+        "name": "哇哈哈哈",
+        "realname": "111",
+        "cellphone": 11111,
+        "enable": 1,
+        "departmentId": 3,
+        "roleId": 4,
+        "createAt": "2023-02-22T07:25:12.000Z",
+        "updateAt": "2023-02-22T07:25:12.000Z"
+      },
+      {
+        "id": 177040852,
+        "name": "123456",
+        "realname": "454572",
+        "cellphone": 272875272,
+        "enable": 1,
+        "departmentId": 3,
+        "roleId": 3,
+        "createAt": "2023-02-22T07:24:37.000Z",
+        "updateAt": "2023-02-22T07:24:37.000Z"
+      },
+      {
+        "id": 177040851,
+        "name": "174521",
+        "realname": "2572452",
+        "cellphone": 275425425,
+        "enable": 1,
+        "departmentId": 3387,
+        "roleId": 9240,
+        "createAt": "2023-02-22T07:24:25.000Z",
+        "updateAt": "2023-02-22T07:24:25.000Z"
+      },
+      {
+        "id": 177040850,
+        "name": "1122",
+        "realname": "11122",
+        "cellphone": 111,
+        "enable": 1,
+        "departmentId": 2,
+        "roleId": 3,
+        "createAt": "2023-02-22T07:20:11.000Z",
+        "updateAt": "2023-02-22T07:21:43.000Z"
+      },
+      {
+        "id": 9,
+        "name": "lyh",
+        "realname": "李银河",
+        "cellphone": 17754456666,
+        "enable": 1,
+        "departmentId": 2,
+        "roleId": 3,
+        "createAt": "2021-05-02T07:24:12.000Z",
+        "updateAt": "2021-08-20T04:07:23.000Z"
+      },
+      {
+        "id": 8,
+        "name": "wxb",
+        "realname": "王小波",
+        "cellphone": 18855556666,
+        "enable": 1,
+        "departmentId": 2,
+        "roleId": 3,
+        "createAt": "2021-05-02T07:24:12.000Z",
+        "updateAt": "2021-05-02T07:26:20.000Z"
+      }
+    ],
+    "totalCount": 16
+  }
+}

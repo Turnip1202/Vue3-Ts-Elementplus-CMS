@@ -1,0 +1,47 @@
+{
+  "code": 0,
+  "data": {
+    "list": [
+      {
+        "id": 1,
+        "name": "开发部",
+        "parentId": 2,
+        "createAt": "2021-01-02T10:04:02.000Z",
+        "updateAt": "2021-08-03T11:14:32.000Z",
+        "leader": "lily"
+      },
+      {
+        "id": 2,
+        "name": "客服部",
+        "parentId": 2,
+        "createAt": "2021-01-02T10:04:02.000Z",
+        "updateAt": "2021-08-03T11:14:32.000Z",
+        "leader": "lily"
+      },
+      {
+        "id": 3,
+        "name": "运维部",
+        "parentId": 2,
+        "createAt": "2021-01-02T10:04:02.000Z",
+        "updateAt": "2021-08-03T11:14:32.000Z",
+        "leader": "lily"
+      },
+      {
+        "id": 4,
+        "name": "高中部",
+        "parentId": 2,
+        "createAt": "2021-01-02T10:04:02.000Z",
+        "updateAt": "2021-08-03T11:14:32.000Z",
+        "leader": "lily"
+      },
+      {
+        "id": 5,
+        "name": "大学部",
+        "parentId": 2,
+        "createAt": "2021-01-02T10:04:02.000Z",
+        "updateAt": "2021-08-03T11:14:32.000Z",
+        "leader": "lily"
+      }
+    ]
+  }
+}

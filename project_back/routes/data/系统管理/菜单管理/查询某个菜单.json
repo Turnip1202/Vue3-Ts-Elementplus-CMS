@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "data": {
+    "id": 1,
+    "name": "系统管理",
+    "type": 1,
+    "icon": "el-icon-setting",
+    "parentId": null,
+    "url": "/main/system",
+    "createAt": "2021-01-02T10:08:14.000Z",
+    "updateAt": "2021-08-20T07:00:08.000Z",
+    "sort": 2,
+    "permission": null
+  }
+}

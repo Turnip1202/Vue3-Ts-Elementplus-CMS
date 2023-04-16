@@ -1,0 +1,19 @@
+{
+  "superUser": [
+    {
+      "id": 0,
+      "name": "kang",
+      "password": "123456"
+    },
+    {
+      "id": 1,
+      "name": "yu",
+      "password": "990713"
+    },
+    {
+      "id": 3,
+      "name": "Turnip",
+      "password": "123456"
+    }
+  ]
+}
