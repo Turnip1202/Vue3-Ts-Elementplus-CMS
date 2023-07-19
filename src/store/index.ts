@@ -3,6 +3,8 @@ import login from './login/login'
 import { IRootState, IStoreType } from './types'
 import system from './main/system/system'
 import { getPageListData } from '@/service/main/system/system'
+
+import dashboard from './main/analysis/dashboard'
 //给根状态传递一个泛型
 const store = createStore<IRootState>({
   state: () => {
@@ -51,7 +53,8 @@ const store = createStore<IRootState>({
   getters: {},
   modules: {
     login,
-    system
+    system,
+    dashboard
   }
 })
 

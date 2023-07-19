@@ -101,19 +101,19 @@ class TKRequest {
     })
   }
 
-  get<T>(config: TKRequestConfig<T>): Promise<T> {
+  get<T = any>(config: TKRequestConfig<T>): Promise<T> {
     return this.request<T>({ ...config, method: 'GET' })
   }
 
-  post<T>(config: TKRequestConfig<T>): Promise<T> {
+  post<T = any>(config: TKRequestConfig<T>): Promise<T> {
     return this.request<T>({ ...config, method: 'POST' })
   }
 
-  delete<T>(config: TKRequestConfig<T>): Promise<T> {
+  delete<T = any>(config: TKRequestConfig<T>): Promise<T> {
     return this.request<T>({ ...config, method: 'DELETE' })
   }
 
-  patch<T>(config: TKRequestConfig<T>): Promise<T> {
+  patch<T = any>(config: TKRequestConfig<T>): Promise<T> {
     return this.request<T>({ ...config, method: 'PATCH' })
   }
 }

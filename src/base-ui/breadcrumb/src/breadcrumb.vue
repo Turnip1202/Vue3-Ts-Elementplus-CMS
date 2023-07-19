@@ -12,7 +12,6 @@
 
 <script lang="ts" setup>
 import type { PropType } from 'vue'
-import { defineProps } from 'vue'
 import { IBreadcrumb } from '../types'
 const props = defineProps({
   breadcrumbs: {
