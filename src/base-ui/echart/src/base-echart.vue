@@ -25,8 +25,7 @@ const props = withDefaults(
 const echartDivRef = ref<HTMLElement>()
 
 onMounted(() => {
-  // eslint-disable-next-line @typescript-eslint/no-empty-function
-  const { setOptions } = useEchart(echartDivRef.value as HTMLElement)
+  const { setOptions } = useEchart(echartDivRef.value!)
 
   watchEffect(() => {
     setOptions(props.options)
