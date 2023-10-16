@@ -27,14 +27,14 @@ const loginModule: Module<ILoginState, IRootState> = {
       state.token = token
     },
     changeUserInfo(state, userInfo: any) {
-      console.log(userInfo)
+      //   console.log(userInfo)
       state.userInfo = userInfo
     },
     changeUserMenus(state, userMenus: any) {
-      console.log(userMenus)
+      //  console.log(userMenus)
       state.userMenus = userMenus
       // 注册动态路由
-      console.log('注册动态路由')
+      //  console.log('注册动态路由')
       const routes = mapMenusToRoutes(userMenus)
       routes.forEach((route) => {
         router.addRoute('main', route)
@@ -49,7 +49,7 @@ const loginModule: Module<ILoginState, IRootState> = {
       // 将token保存到vuex里，并且进行本地存储,下同
       // console.log('执行accountLoginAction', payload)
       const loginResult = await accountLoginRequest(payload)
-      console.log(loginResult.data)
+      //   console.log(loginResult.data)
       const { id, token } = loginResult.data //拿到id和token
       commit('changeToken', token)
       LocalCache.setCache('token', token)
@@ -67,7 +67,7 @@ const loginModule: Module<ILoginState, IRootState> = {
       // 3.请求用户菜单
       const userMenusResult = await requestUserMenusRoleId(id)
       const userMenus = userMenusResult.data
-      console.log('用户菜单', userMenusResult)
+      // console.log('用户菜单', userMenusResult)
       commit('changeUserMenus', userMenus) //存入vuex
       LocalCache.setCache('userMenus', userMenus) //进行本地存储
 
@@ -89,7 +89,7 @@ const loginModule: Module<ILoginState, IRootState> = {
       const userInfo = LocalCache.getCache('userInfo')
       if (userInfo) commit('changeUserInfo', userInfo)
       const userMenus = LocalCache.getCache('userMenus')
-      console.log(userMenus)
+      // console.log(userMenus)
       if (userMenus) commit('changeUserMenus', userMenus)
     }
   },
