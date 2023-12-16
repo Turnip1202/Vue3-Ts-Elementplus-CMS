@@ -9,7 +9,7 @@ module.exports = {
       '^/api': {
         //临时把请求映射到的后端服务
         //后端就是api，所以不需要重写path
-        target: 'http://127.0.0.1:3000/',
+        target: 'http://127.0.0.1:2023/',
         // pathRewrite: {
         //   '^/api': ''
         // },

@@ -25,7 +25,7 @@ const props = withDefaults(
 const echartDivRef = ref<HTMLElement>()
 
 onMounted(() => {
-  const { setOptions } = useEchart(echartDivRef.value!)
+  const { setOptions } = useEchart(echartDivRef.value as HTMLElement)
 
   watchEffect(() => {
     setOptions(props.options)

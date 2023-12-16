@@ -49,16 +49,19 @@ const loginModule: Module<ILoginState, IRootState> = {
       // 将token保存到vuex里，并且进行本地存储,下同
       // console.log('执行accountLoginAction', payload)
       const loginResult = await accountLoginRequest(payload)
-      //   console.log(loginResult.data)
+      console.log(loginResult.data)
       const { id, token } = loginResult.data //拿到id和token
+      console.log(id)
+
       commit('changeToken', token)
-      LocalCache.setCache('token', token)
+      // LocalCache.setCache('token', token)
 
       // 发送初始化的请求（完整的role/department）
       dispatch('getInitialDataAction', null, { root: true })
 
       // 2.再次请求用户信息
       const userInfoResult = await requestUserInfoById(id)
+      console.log('userInfoResult', userInfoResult)
 
       const userInfo = userInfoResult.data
       commit('changeUserInfo', userInfo)
@@ -71,7 +74,7 @@ const loginModule: Module<ILoginState, IRootState> = {
       commit('changeUserMenus', userMenus) //存入vuex
       LocalCache.setCache('userMenus', userMenus) //进行本地存储
 
-      router.push('/main')
+      // router.push('/main')
     },
     phoneLoginAction({ commit }, payload: any) {
       console.log('执行phoneLoginAction', payload)
