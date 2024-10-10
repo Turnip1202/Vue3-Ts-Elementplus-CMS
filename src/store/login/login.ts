@@ -54,7 +54,7 @@ const loginModule: Module<ILoginState, IRootState> = {
       console.log(id)
 
       commit('changeToken', token)
-      // LocalCache.setCache('token', token)
+       LocalCache.setCache('token', token)
 
       // 发送初始化的请求（完整的role/department）
       dispatch('getInitialDataAction', null, { root: true })
