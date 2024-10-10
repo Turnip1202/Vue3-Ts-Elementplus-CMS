@@ -74,7 +74,7 @@ const loginModule: Module<ILoginState, IRootState> = {
       commit('changeUserMenus', userMenus) //存入vuex
       LocalCache.setCache('userMenus', userMenus) //进行本地存储
 
-      // router.push('/main')
+      router.push('/main')
     },
     phoneLoginAction({ commit }, payload: any) {
       console.log('执行phoneLoginAction', payload)
